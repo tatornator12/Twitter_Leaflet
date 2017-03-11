@@ -5,7 +5,7 @@ This repo provides a mix of Python and JavaScript to retrieve tweets using the T
 * index.html maps the data.
 
 #### GitHub Page
-*
+* <https://tatornator12.github.io/Twitter_Leaflet/>
 
 #### JSBin
-*
+* <http://jsbin.com/pajice/edit?html,output>
