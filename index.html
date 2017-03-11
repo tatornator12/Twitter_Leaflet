@@ -43,14 +43,15 @@
 		id: 'mapbox.light'
 	}).addTo(map);	
 
-    var twitterIcon = L.icon({
+    // Create a custom icon
+    	var twitterIcon = L.icon({
 		iconUrl: 'https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png',
 		iconSize: [32, 37],
 		iconAnchor: [16, 37],
 		popupAnchor: [0, -28]
 	});
   
-    // Add pop-up information (name & population) to the highlighted countries
+    // Add pop-up information (name, twitter handle, and tweet) to the points
 	function onEachFeature(feature, layer) {
 		var popupContent = "<u><b>Name</b></u>: " + feature.properties.name + "</br>" +
                  "<u><b>Twitter Handle</b></u>: " + feature.properties.twitter_handle + "</br>" +
@@ -63,7 +64,7 @@
 		layer.bindPopup(popupContent);
 	}
   
-    // Add the countries GeoJSON data to the map and color code by continent
+    // Add the tweets GeoJSON data to the map and style by the specified icon
 	L.geoJSON(tweets, {
          pointToLayer: function (feature, latlng) {
            return L.marker(latlng, {icon: twitterIcon});
