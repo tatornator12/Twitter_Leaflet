@@ -63,8 +63,8 @@ with open(tweets_filename) as data_file:
 					"text": tweet['text']
 				},
 				"geometry": {
-					"type": tweet['geo']['type'],
-					"coordinates": tweet['geo']['coordinates']
+					"type": tweet['coordinates']['type'],
+					"coordinates": tweet['coordinates']['coordinates']
 				}
 			}
 		geo_data['features'].append(geo_json_feature)
