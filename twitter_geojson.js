@@ -5,8 +5,8 @@ var tweets = {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    38.89817286, 
-                    -77.02741405
+                    -77.02741405, 
+                    38.89817286
                 ]
             }, 
             "type": "Feature", 
@@ -20,8 +20,8 @@ var tweets = {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    38.66561356, 
-                    -78.45790709
+                    -78.45790709, 
+                    38.66561356
                 ]
             }, 
             "type": "Feature", 
@@ -35,8 +35,8 @@ var tweets = {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    38.56475952, 
-                    -78.3644638
+                    -78.3644638, 
+                    38.56475952
                 ]
             }, 
             "type": "Feature", 
@@ -50,8 +50,8 @@ var tweets = {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    38.44959087, 
-                    -78.46559297
+                    -78.46559297, 
+                    38.44959087
                 ]
             }, 
             "type": "Feature", 
@@ -65,8 +65,8 @@ var tweets = {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    38.49939316, 
-                    -78.47204553
+                    -78.47204553, 
+                    38.49939316
                 ]
             }, 
             "type": "Feature", 
@@ -80,8 +80,8 @@ var tweets = {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    38.84881132, 
-                    -78.20516892
+                    -78.20516892, 
+                    38.84881132
                 ]
             }, 
             "type": "Feature", 
@@ -95,8 +95,8 @@ var tweets = {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    39.06014687, 
-                    -77.15652886
+                    -77.15652886, 
+                    39.06014687
                 ]
             }, 
             "type": "Feature", 
@@ -110,8 +110,8 @@ var tweets = {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    39.0941721, 
-                    -77.20175057
+                    -77.20175057, 
+                    39.0941721
                 ]
             }, 
             "type": "Feature", 
@@ -125,8 +125,8 @@ var tweets = {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    38.8843039, 
-                    -77.02263191
+                    -77.02263191, 
+                    38.8843039
                 ]
             }, 
             "type": "Feature", 
@@ -140,8 +140,8 @@ var tweets = {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    39.15021997, 
-                    -77.1803098
+                    -77.1803098, 
+                    39.15021997
                 ]
             }, 
             "type": "Feature", 
