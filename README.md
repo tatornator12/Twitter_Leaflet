@@ -1,2 +1,8 @@
 # Twitter_Leaflet
-Using the Twitter API and Leaflet to map geo-located tweets
+This repo provides a mix of Python and JavaScript to retrieve tweets using the Twitter API, parse the tweets to convert them to a GeoJSON, and use Leaflet to map the geo-located tweets from the GeoJSON file.
+
+#### GitHub Page
+*
+
+#### JSBin
+*
